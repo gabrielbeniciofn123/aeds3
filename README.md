@@ -97,10 +97,10 @@ A [avaliação atual por requisito](docs/AVALIACAO_ATUAL.md) registra as correç
 - [Decisões e formatos dos arquivos](docs/DECISOES_TP2.md)
 - [Roteiro de apresentação com duração inferior a 10 minutos](docs/ROTEIRO_VIDEO.md)
 - [Guia de estudo e perguntas de defesa](docs/GUIA_ESTUDO.md)
-- `video/tp2/video_tp2.mp4`: apresentação com as 12 gravações de voz fornecidas pelo integrante, sincronizadas às cenas, às saídas reais dos testes e à sessão real do menu; veja `video/tp2/LEIA-ME.md`.
+- `video/video_tp2.mp4`: apresentação com as 12 gravações de voz fornecidas pelo integrante, sincronizadas às cenas, às saídas reais dos testes e à sessão real do menu; veja `video/tp2/LEIA-ME.md`.
 - [Capítulos e sincronização das falas](video/tp2/SINCRONIZACAO.md). A duração final e as verificações do MP4 estão em `video/tp2/VERIFICACAO.txt`; os áudios originais acompanham a entrega em `video/tp2/audios_originais`.
 
-O roteiro foi escrito para explicar o que o código realmente faz. Leia e pratique a demonstração para apresentar com suas palavras. O vídeo `video/video.mp4` pertence ao TP1; o vídeo novo está na subpasta `video/tp2`. O pacote de entrega final é `TP2-Carros-Entrega-Final.zip`, gerado por `python3 scripts/empacotar.py`.
+O roteiro foi escrito para explicar o que o código realmente faz. Leia e pratique a demonstração para apresentar com suas palavras. O vídeo `video/video_tp1.mp4` pertence ao TP1; o vídeo do TP2 está ao lado, em `video/video_tp2.mp4`. O pacote de entrega final é `TP2-Carros-Entrega-Final.zip`, gerado por `python3 scripts/empacotar.py`.
 
 ## Organização
 

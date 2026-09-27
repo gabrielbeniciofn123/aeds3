@@ -1,6 +1,6 @@
 # Roteiro de referência das 12 gravações — TP2 Carros
 
-As 12 gravações enviadas separadamente pelo integrante foram incorporadas ao vídeo final `video/tp2/video_tp2.mp4`. As cenas e as etapas do menu foram ajustadas às falas. Os arquivos originais estão em `video/tp2/audios_originais`, numerados de `fala_01.mp4` a `fala_12.mp4`, e os capítulos estão em `video/tp2/SINCRONIZACAO.md`.
+As 12 gravações enviadas separadamente pelo integrante foram incorporadas ao vídeo final `video/video_tp2.mp4`. As cenas e as etapas do menu foram ajustadas às falas. Os arquivos originais estão em `video/tp2/audios_originais`, numerados de `fala_01.mp4` a `fala_12.mp4`, e os capítulos estão em `video/tp2/SINCRONIZACAO.md`.
 
 O texto abaixo é o roteiro de referência usado para preparar as gravações, não uma transcrição literal dos áudios. Os títulos e as indicações de pausa são orientações de gravação. Para uma futura regravação:
 

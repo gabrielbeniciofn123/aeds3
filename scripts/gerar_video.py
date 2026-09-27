@@ -223,7 +223,7 @@ def finalize(manifest):
     volume = run(['-i',output,'-map','0:a:0','-af','volumedetect','-f','null','-'])
     audio_audit = run(['-i',output,'-map','0:a:0','-af','ebur128=peak=true','-f','null','-'])
     (RENDER/'volume_final.log').write_text(volume+'\n'+audio_audit)
-    output.replace(DEST/'video_tp2.mp4')
+    output.replace(ROOT/'video/video_tp2.mp4')
     save_json(DEST/'narracao.json',manifest)
     save_json(DEST/'render/voz_integrante/menu_sincronizado.json',menu)
     (DEST/'NARRACAO.md').write_text('# Narração do vídeo TP2\n\n'
@@ -239,7 +239,7 @@ def finalize(manifest):
     sync_text += '\n\n## Menu — tempos dentro da cena 11\n\n'
     sync_text += '\n'.join(f"- {timestamp(x['inicio_na_cena'])}: {x['descricao']}" for x in menu)+'\n'
     (DEST/'SINCRONIZACAO.md').write_text(sync_text)
-    final = DEST/'video_tp2.mp4'
+    final = ROOT/'video/video_tp2.mp4'
     streams = [x.strip() for x in probe.splitlines() if 'Stream #' in x]
     volumes = [x.split(']')[-1].strip() for x in volume.splitlines() if 'mean_volume:' in x or 'max_volume:' in x]
     report = [f'VERIFICAÇÃO DO VÍDEO FINAL — {date.today().strftime("%d/%m/%Y")}',

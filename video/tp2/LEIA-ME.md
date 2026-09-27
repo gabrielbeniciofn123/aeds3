@@ -1,6 +1,6 @@
 # Vídeo do TP2
 
-`video_tp2.mp4` apresenta a implementação em 12 cenas, com as gravações de voz fornecidas pelo integrante. A duração final, a conferência do limite de 10 minutos, os formatos de áudio e vídeo e o checksum do MP4 estão em `VERIFICACAO.txt`.
+[`../video_tp2.mp4`](../video_tp2.mp4) apresenta a implementação em 12 cenas, com as gravações de voz fornecidas pelo integrante. A duração final, a conferência do limite de 10 minutos, os formatos de áudio e vídeo e o checksum do MP4 estão em `VERIFICACAO.txt`.
 
 Cada gravação corresponde à cena de mesmo número. Os tempos das cenas acompanham as falas, e as etapas da demonstração do menu foram sincronizadas com a explicação das operações. `SINCRONIZACAO.md` registra os capítulos; `narracao.json` guarda os tempos da montagem. `NARRACAO.md` contém o roteiro de referência, que pode apresentar pequenas diferenças em relação às palavras efetivamente gravadas.
 

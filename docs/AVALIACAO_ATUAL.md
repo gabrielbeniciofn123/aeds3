@@ -81,4 +81,4 @@ Os scripts Windows foram revisados, mas não executados em Windows neste ambient
 
 Extraia `TP2-Carros-Entrega-Final.zip`. Com JDK 11 ou superior, execute `./testar.sh`, `./testar.sh --base-100k` e `./demonstrar.sh` (ou os equivalentes `.bat`). Para utilizar o sistema, execute `./executar.sh`, importe `data/base.csv` pela opção 1 e confirme com `IMPORTAR`. A configuração padrão já segue o enunciado.
 
-Assista a `video/tp2/video_tp2.mp4` e use `ROTEIRO_VIDEO.md` e `GUIA_ESTUDO.md` para preparar a defesa. A implementação, as evidências e o vídeo estão no mesmo pacote.
+Assista a `video/video_tp2.mp4` e use `ROTEIRO_VIDEO.md` e `GUIA_ESTUDO.md` para preparar a defesa. A implementação, as evidências e o vídeo estão no mesmo pacote.
