@@ -4,7 +4,7 @@ Resolução: 1920 × 1080; 10 fps; vídeo H.264; áudio AAC mono a 48 kHz.
 12 gravações próprias incorporadas integralmente e na ordem, com 12 capítulos.
 Sem voz sintetizada; sem cortes na fala; velocidade original preservada.
 Volume normalizado por gravação: alvo -18 LUFS, teto -1,5 dBTP.
-Menu sincronizado por etapas com a fala 11; saída real preservada em menu_eventos.json.
+Menu sincronizado por etapas com a fala 11; transcrição real em docs/DEMONSTRACAO_MENU_ATUAL.txt.
 Decodificação integral de vídeo e áudio: APROVADA (FFmpeg, -xerror; código 0).
 Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1920x1080, 50 kb/s, 10 fps, 10 tbr, 10240 tbn (default)
 Stream #0:1[0x2](por): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, mono, fltp, 164 kb/s (default)

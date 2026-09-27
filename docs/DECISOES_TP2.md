@@ -187,4 +187,4 @@ A importação reconhece o cabeçalho pelos quatro campos esperados, sem confund
 
 O arquivo temporário de carga tem nome exclusivo, para não truncar o CSV informado pelo usuário. Erros de leitura ou validação deixam o banco e os índices anteriores preservados. Um arquivo de dados zerado com configuração ou índices existentes é tratado como truncamento e gera erro; o sistema não apaga os índices para fingir uma nova base vazia.
 
-Esses casos estão em `TesteRevisaoTP2`, juntamente com o teste de que o prompt do menu aparece antes de receber entrada. Consulte `REVISAO_FINAL.md` para o resultado da revisão e os limites da verificação.
+Esses casos estão em `TesteRevisaoTP2`, juntamente com o teste de que o prompt do menu aparece antes de receber entrada. Os resultados da suíte estão em `RESULTADO_VALIDACAO_ATUAL.txt`; os limites da implementação estão descritos neste documento.

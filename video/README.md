@@ -1,6 +1,6 @@
 # Vídeos dos trabalhos
 
 - [TP1 — primeiro trabalho](video_tp1.mp4)
-- [TP2 — segundo trabalho, com as 12 falas sincronizadas](video_tp2.mp4)
+- [TP2 — segundo trabalho, com narração sincronizada](video_tp2.mp4)
 
-Os dois vídeos finais ficam nesta pasta. A subpasta `tp2` contém os áudios originais, roteiros e verificações. A pasta local `tp2/render` contém apenas arquivos de produção e não é publicada.
+O vídeo do TP2 tem 8min10,5s. Consulte os [capítulos](CAPITULOS_TP2.md) e a [verificação técnica](VERIFICACAO_TP2.txt). Se o GitHub não reproduzir o vídeo na página, utilize o botão de download.

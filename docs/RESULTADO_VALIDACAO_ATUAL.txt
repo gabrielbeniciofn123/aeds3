@@ -25,7 +25,7 @@ OK: compatibilidade TP1, lápides, reconstrução e percentual 5%.
 OK: recuperação de transação interrompida e importação inválida sem perda.
 AUDITORIA OK: 53 registros ativos; todos os IDs, endereços e listas conferem.
 OK: carga interrompida com cabeçalho truncado, restauração do backup e capacidade inicial.
-TESTES TP2 APROVADOS: 686 verificações em 18.342 s.
+TESTES TP2 APROVADOS: 686 verificações em 13.530 s.
 OK: falhas de commit em create, update no lugar/relocado e delete pelos três índices.
 Recuperação do TP2: 178 verificações passaram.
 OK: CSV estrito, BOM, cabeçalho exato, aspas e preservação da origem/base.
