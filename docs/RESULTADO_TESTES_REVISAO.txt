@@ -1,0 +1,70 @@
+Compilação concluída (compatível com Java 11+).
+  Árvore B+: ordem=3, registros=100, altura=6, páginas ativas=97, páginas livres=363, página=61 bytes, raiz no offset=4928
+  Árvore B+: ordem=4, registros=100, altura=5, páginas ativas=76, páginas livres=168, página=81 bytes, raiz no offset=2478
+  Árvore B+: ordem=5, registros=100, altura=4, páginas ativas=48, páginas livres=139, página=101 bytes, raiz no offset=3078
+  Árvore B+: ordem=6, registros=100, altura=4, páginas ativas=44, páginas livres=85, página=121 bytes, raiz no offset=7066
+  Árvore B+: ordem=7, registros=100, altura=3, páginas ativas=32, páginas livres=85, página=141 bytes, raiz no offset=14148
+  Árvore B+: ordem=8, registros=100, altura=3, páginas ativas=31, páginas livres=64, página=161 bytes, raiz no offset=10513
+  Árvore B+: ordem=9, registros=100, altura=3, páginas ativas=25, páginas livres=57, página=181 bytes, raiz no offset=772
+  Árvore B+: ordem=16, registros=100, altura=2, páginas ativas=13, páginas livres=29, página=321 bytes, raiz no offset=3579
+  Árvore B+: ordem=31, registros=100, altura=2, páginas ativas=7, páginas livres=13, página=621 bytes, raiz no offset=4395
+Árvore B+: 57762 verificações passaram.
+Hash estendido: 8804 verificações passaram.
+OK: normalização, CRUD de postings, cópias, persistência e compactação.
+OK: 16.000 operações aleatórias com reaberturas e endereços alterados.
+OK: cabeçalho truncado, evento truncado e corrupção de CRC detectados.
+LISTA INVERTIDA: TODOS OS TESTES PASSARAM.
+OK: capacidade percentual, arredondamento e base vazia.
+OK: CRUD via ARVORE, update fixo/relocado e limpeza das listas.
+OK: CRUD via HASH, update fixo/relocado e limpeza das listas.
+OK: CRUD via LISTA, update fixo/relocado e limpeza das listas.
+AUDITORIA OK: 1 registros ativos; todos os IDs, endereços e listas conferem.
+OK: reabertura persistente. AUDITORIA OK: 1 registros ativos; todos os IDs, endereços e listas conferem.
+OK: 600 operações aleatórias contra modelo de referência e quatro reaberturas.
+OK: compatibilidade TP1, lápides, reconstrução e percentual 5%.
+OK: recuperação de transação interrompida e importação inválida sem perda.
+AUDITORIA OK: 53 registros ativos; todos os IDs, endereços e listas conferem.
+OK: carga interrompida com cabeçalho truncado, restauração do backup e capacidade inicial.
+TESTES TP2 APROVADOS: 686 verificações em 14.492 s.
+Recuperação do TP2: 28 verificações passaram.
+OK: CSV estrito, BOM, cabeçalho exato, aspas e preservação da origem/base.
+OK: truncamento detectado, índices preservados e restauração aceita.
+OK: menu real exibe prompt sem entrada prévia, aceita EOF e informa argumento incompleto.
+REVISÃO TP2 APROVADA: 35 verificações de CSV, preservação da base e menu.
+TESTE 1 — CARGA
+OK
+
+TESTE 2 — CREATE
+OK
+
+TESTE 3 — READ
+OK
+
+TESTE 4 — UPDATE MESMO TAMANHO
+OK
+
+TESTE 5 — UPDATE TAMANHO DIFERENTE
+OK
+
+TESTE 6 — DELETE
+OK
+
+TESTE 7A — INTERCALAÇÃO BALANCEADA COMUM
+OK
+
+TESTE 8 — CRUD APÓS INTERCALAÇÃO BALANCEADA
+OK
+
+TESTE 7B — SELEÇÃO POR SUBSTITUIÇÃO + INTERCALAÇÃO
+OK
+
+TESTE 9 — CRUD APÓS SELEÇÃO POR SUBSTITUIÇÃO
+OK
+
+TESTE 10 — VALIDAÇÕES E ARQUIVOS INVÁLIDOS
+OK
+
+
+TODOS OS TESTES OBRIGATÓRIOS PASSARAM.
+Intercalação Balanceada: registros=59, runs iniciais=9, passagens de intercalação=2
+Seleção por Substituição: registros=17, runs iniciais=2, passagens de intercalação=1, registros congelados=5

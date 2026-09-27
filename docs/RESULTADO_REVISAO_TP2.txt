@@ -1,0 +1,4 @@
+OK: CSV estrito, BOM, cabeçalho exato, aspas e preservação da origem/base.
+OK: truncamento detectado, índices preservados e restauração aceita.
+OK: menu real exibe prompt sem entrada prévia, aceita EOF e informa argumento incompleto.
+REVISÃO TP2 APROVADA: 35 verificações de CSV, preservação da base e menu.

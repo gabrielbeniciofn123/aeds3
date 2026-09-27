@@ -1,0 +1,12 @@
+OK: capacidade percentual, arredondamento e base vazia.
+OK: CRUD via ARVORE, update fixo/relocado e limpeza das listas.
+OK: CRUD via HASH, update fixo/relocado e limpeza das listas.
+OK: CRUD via LISTA, update fixo/relocado e limpeza das listas.
+AUDITORIA OK: 1 registros ativos; todos os IDs, endereços e listas conferem.
+OK: reabertura persistente. AUDITORIA OK: 1 registros ativos; todos os IDs, endereços e listas conferem.
+OK: 600 operações aleatórias contra modelo de referência e quatro reaberturas.
+OK: compatibilidade TP1, lápides, reconstrução e percentual 5%.
+OK: recuperação de transação interrompida e importação inválida sem perda.
+AUDITORIA OK: 53 registros ativos; todos os IDs, endereços e listas conferem.
+OK: carga interrompida com cabeçalho truncado, restauração do backup e capacidade inicial.
+TESTES TP2 APROVADOS: 686 verificações em 15.435 s.

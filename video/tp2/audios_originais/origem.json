@@ -1,0 +1,62 @@
+[
+  {
+    "cena": 1,
+    "arquivo": "fala_01.mp4",
+    "origem": "Fala 1 aeds3.m4a.mp4"
+  },
+  {
+    "cena": 2,
+    "arquivo": "fala_02.mp4",
+    "origem": "Fala 2 aeds 3.m4a.mp4"
+  },
+  {
+    "cena": 3,
+    "arquivo": "fala_03.mp4",
+    "origem": "Fala 3 aeds 3.m4a.mp4"
+  },
+  {
+    "cena": 4,
+    "arquivo": "fala_04.mp4",
+    "origem": "Fala 4 aeds 3.m4a.mp4"
+  },
+  {
+    "cena": 5,
+    "arquivo": "fala_05.mp4",
+    "origem": "Fala 5.m4a.mp4"
+  },
+  {
+    "cena": 6,
+    "arquivo": "fala_06.mp4",
+    "origem": "Fala 6.m4a.mp4"
+  },
+  {
+    "cena": 7,
+    "arquivo": "fala_07.mp4",
+    "origem": "Fala 7.m4a.mp4"
+  },
+  {
+    "cena": 8,
+    "arquivo": "fala_08.mp4",
+    "origem": "Fala 8.m4a.mp4"
+  },
+  {
+    "cena": 9,
+    "arquivo": "fala_09.mp4",
+    "origem": "Fala 9.m4a.mp4"
+  },
+  {
+    "cena": 10,
+    "arquivo": "fala_10.mp4",
+    "origem": "Fala 10.m4a.mp4"
+  },
+  {
+    "cena": 11,
+    "arquivo": "fala_11.mp4",
+    "origem": "Fala 11.m4a.mp4"
+  },
+  {
+    "cena": 12,
+    "arquivo": "fala_12.mp4",
+    "origem": "Fala 12.m4a.mp4"
+  }
+]

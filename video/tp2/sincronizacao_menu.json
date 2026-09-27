@@ -1,0 +1,47 @@
+{
+  "origem": "Marcadores identificados por reconhecimento local da fala 11 e correspondência com o roteiro.",
+  "base_tempo": "Segundos desde o início do áudio decodificado; montagem acrescenta 0,25 segundo antes da voz.",
+  "sha256_audio": "8570b13ab40b74f31f58226773e345bab26c12d7882c03c92e922ad35f817a31",
+  "etapas": [
+    {
+      "etapa": 0,
+      "inicio_audio": 0,
+      "descricao": "Menu e apresentação da sessão"
+    },
+    {
+      "etapa": 1,
+      "inicio_audio": 14.31,
+      "descricao": "CREATE — lista invertida e cadastro"
+    },
+    {
+      "etapa": 2,
+      "inicio_audio": 19.3,
+      "descricao": "READ — consulta pelo hash"
+    },
+    {
+      "etapa": 3,
+      "inicio_audio": 23.03,
+      "descricao": "LISTAS — pesquisa por ano e característica"
+    },
+    {
+      "etapa": 4,
+      "inicio_audio": 28.39,
+      "descricao": "UPDATE — árvore B+ e mudança de endereço"
+    },
+    {
+      "etapa": 5,
+      "inicio_audio": 34.3,
+      "descricao": "DELETE — exclusão pela lista invertida"
+    },
+    {
+      "etapa": 6,
+      "inicio_audio": 38.37,
+      "descricao": "Auditoria dos dados e índices"
+    },
+    {
+      "etapa": 7,
+      "inicio_audio": 46.5,
+      "descricao": "Encerramento da sessão"
+    }
+  ]
+}

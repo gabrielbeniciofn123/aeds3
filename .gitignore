@@ -1,0 +1,25 @@
+out/
+bin/
+build-test/
+*.class
+*.run
+*.bak
+temp/*
+!temp/.gitkeep
+data/dados.db
+data/dados_ordenados.db
+vehicles.csv
+craigslist-carstrucks-data*.zip
+
+# TP2: arquivos regeneráveis e JDK portátil local
+.tools/
+build-test-tp2/
+build-test-bmais/
+build-test-hash/
+build-test-lista/
+out-review/
+data/tp2/
+video/tp2/render/
+*.aiff
+__pycache__/
+*.pyc

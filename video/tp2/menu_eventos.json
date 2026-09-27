@@ -1,0 +1,595 @@
+{
+  "origem": "MainTP2 executado em PTY real; banco temporário isolado",
+  "edicao": "Tempos editados para leitura; conteúdo e sequência das saídas preservados",
+  "comando": [
+    "/Users/gioh/Desktop/aeds3 Carros/G15-TP1-AEDS3-CARROS/.tools/jdk/Contents/Home/bin/java",
+    "-Dfile.encoding=UTF-8",
+    "-Xmx1g",
+    "-cp",
+    "classes",
+    "MainTP2",
+    "--pasta",
+    "base",
+    "--ordem",
+    "4",
+    "--percentual",
+    "2"
+  ],
+  "duracao_video_segundos": 58,
+  "fps": 8,
+  "resolucao": [
+    1920,
+    1080
+  ],
+  "audio": false,
+  "eventos": [
+    {
+      "tempo_real": 0.193575,
+      "tipo": "saida",
+      "texto": "TP2 AEDS III — Carros | Grupo 15\nGabriel Benicio Fonseca e Rhayner Martins\n"
+    },
+    {
+      "tempo_real": 0.215184,
+      "tipo": "saida",
+      "texto": "Pasta: base | ordem=4 | percentual=2.0%\n"
+    },
+    {
+      "tempo_real": 0.229753,
+      "tipo": "saida",
+      "texto": "\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n"
+    },
+    {
+      "tempo_real": 0.229812,
+      "tipo": "saida",
+      "texto": "7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: "
+    },
+    {
+      "tempo_real": 0.229846,
+      "tipo": "entrada",
+      "texto": "2\n"
+    },
+    {
+      "tempo_real": 0.229894,
+      "tipo": "saida",
+      "texto": "2\n"
+    },
+    {
+      "tempo_real": 0.231312,
+      "tipo": "saida",
+      "texto": "Índice desta operação (1 B+, 2 Hash, 3 Lista invertida): "
+    },
+    {
+      "tempo_real": 0.231337,
+      "tipo": "entrada",
+      "texto": "3\n"
+    },
+    {
+      "tempo_real": 0.231372,
+      "tipo": "saida",
+      "texto": "3\n"
+    },
+    {
+      "tempo_real": 0.235194,
+      "tipo": "saida",
+      "texto": "Nome: "
+    },
+    {
+      "tempo_real": 0.23521,
+      "tipo": "entrada",
+      "texto": "Carro demonstracao\n"
+    },
+    {
+      "tempo_real": 0.235262,
+      "tipo": "saida",
+      "texto": "Carro demonstracao\n"
+    },
+    {
+      "tempo_real": 0.235617,
+      "tipo": "saida",
+      "texto": "Características separadas por |: "
+    },
+    {
+      "tempo_real": 0.235628,
+      "tipo": "entrada",
+      "texto": "gas|automatic\n"
+    },
+    {
+      "tempo_real": 0.235658,
+      "tipo": "saida",
+      "texto": "gas|automatic\n"
+    },
+    {
+      "tempo_real": 0.236062,
+      "tipo": "saida",
+      "texto": "Ano: "
+    },
+    {
+      "tempo_real": 0.236079,
+      "tipo": "entrada",
+      "texto": "2022\n"
+    },
+    {
+      "tempo_real": 0.236109,
+      "tipo": "saida",
+      "texto": "2022\n"
+    },
+    {
+      "tempo_real": 0.236479,
+      "tipo": "saida",
+      "texto": "Data AAAA-MM-DD: "
+    },
+    {
+      "tempo_real": 0.236493,
+      "tipo": "entrada",
+      "texto": "2026-09-24\n"
+    },
+    {
+      "tempo_real": 0.236565,
+      "tipo": "saida",
+      "texto": "2026-09-24\n"
+    },
+    {
+      "tempo_real": 0.302274,
+      "tipo": "saida",
+      "texto": "Carro criado: id=1 | todos os índices atualizados.\nÍndice: LISTA | id=1 | endereço=4\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n"
+    },
+    {
+      "tempo_real": 0.302309,
+      "tipo": "saida",
+      "texto": "4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: "
+    },
+    {
+      "tempo_real": 0.302418,
+      "tipo": "entrada",
+      "texto": "3\n"
+    },
+    {
+      "tempo_real": 0.302445,
+      "tipo": "saida",
+      "texto": "3\n"
+    },
+    {
+      "tempo_real": 0.302688,
+      "tipo": "saida",
+      "texto": "Índice desta operação (1 B+, 2 Hash, 3 Lista invertida): "
+    },
+    {
+      "tempo_real": 0.302702,
+      "tipo": "entrada",
+      "texto": "2\n"
+    },
+    {
+      "tempo_real": 0.302735,
+      "tipo": "saida",
+      "texto": "2\n"
+    },
+    {
+      "tempo_real": 0.304648,
+      "tipo": "saida",
+      "texto": "ID: "
+    },
+    {
+      "tempo_real": 0.304663,
+      "tipo": "entrada",
+      "texto": "1\n"
+    },
+    {
+      "tempo_real": 0.304689,
+      "tipo": "saida",
+      "texto": "1\n"
+    },
+    {
+      "tempo_real": 0.319238,
+      "tipo": "saida",
+      "texto": "Carro{id=1, codigo='CAR000000001', nome='Carro demonstracao', dataRegistro=2026-09-24, caracteristicas=[gas, automatic], ano=2022}\nÍndice: HASH | id=1 | endereço=4\n"
+    },
+    {
+      "tempo_real": 0.319355,
+      "tipo": "saida",
+      "texto": "\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: "
+    },
+    {
+      "tempo_real": 0.319382,
+      "tipo": "entrada",
+      "texto": "6\n"
+    },
+    {
+      "tempo_real": 0.319476,
+      "tipo": "saida",
+      "texto": "6\n"
+    },
+    {
+      "tempo_real": 0.321283,
+      "tipo": "saida",
+      "texto": "Pesquisa por listas invertidas. Dois filtros usam interseção (E).\n"
+    },
+    {
+      "tempo_real": 0.321327,
+      "tipo": "saida",
+      "texto": "Ano (ENTER para não filtrar): "
+    },
+    {
+      "tempo_real": 0.321335,
+      "tipo": "entrada",
+      "texto": "2022\n"
+    },
+    {
+      "tempo_real": 0.321365,
+      "tipo": "saida",
+      "texto": "2022\n"
+    },
+    {
+      "tempo_real": 0.321503,
+      "tipo": "saida",
+      "texto": "Característica inteira, ex.: gas ou 8 cylinders (ENTER para não filtrar): "
+    },
+    {
+      "tempo_real": 0.321513,
+      "tipo": "entrada",
+      "texto": "gas\n"
+    },
+    {
+      "tempo_real": 0.321562,
+      "tipo": "saida",
+      "texto": "gas\n"
+    },
+    {
+      "tempo_real": 0.328119,
+      "tipo": "saida",
+      "texto": "Carro{id=1, codigo='CAR000000001', nome='Carro demonstracao', dataRegistro=2026-09-24, caracteristicas=[gas, automatic], ano=2022}\n"
+    },
+    {
+      "tempo_real": 0.330229,
+      "tipo": "saida",
+      "texto": "Total: 1 (exibidos 1).\n"
+    },
+    {
+      "tempo_real": 0.33027,
+      "tipo": "saida",
+      "texto": "Índice: LISTA | ano=2022 | característica=gas | resultados=1\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n"
+    },
+    {
+      "tempo_real": 0.330311,
+      "tipo": "saida",
+      "texto": "4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\n"
+    },
+    {
+      "tempo_real": 0.330339,
+      "tipo": "saida",
+      "texto": "Escolha: "
+    },
+    {
+      "tempo_real": 0.330351,
+      "tipo": "entrada",
+      "texto": "4\n"
+    },
+    {
+      "tempo_real": 0.330383,
+      "tipo": "saida",
+      "texto": "4\n"
+    },
+    {
+      "tempo_real": 0.330515,
+      "tipo": "saida",
+      "texto": "Índice desta operação (1 B+, 2 Hash, 3 Lista invertida): "
+    },
+    {
+      "tempo_real": 0.330525,
+      "tipo": "entrada",
+      "texto": "1\n"
+    },
+    {
+      "tempo_real": 0.330552,
+      "tipo": "saida",
+      "texto": "1\n"
+    },
+    {
+      "tempo_real": 0.330673,
+      "tipo": "saida",
+      "texto": "ID a atualizar: "
+    },
+    {
+      "tempo_real": 0.330689,
+      "tipo": "entrada",
+      "texto": "1\n"
+    },
+    {
+      "tempo_real": 0.330715,
+      "tipo": "saida",
+      "texto": "1\n"
+    },
+    {
+      "tempo_real": 0.331893,
+      "tipo": "saida",
+      "texto": "Atual: Carro{id=1, codigo='CAR000000001', nome='Carro demonstracao', dataRegistro=2026-09-24, caracteristicas=[gas, automatic], ano=2022}\n"
+    },
+    {
+      "tempo_real": 0.331942,
+      "tipo": "saida",
+      "texto": "ENTER mantém o valor; - limpa as características.\n"
+    },
+    {
+      "tempo_real": 0.332201,
+      "tipo": "saida",
+      "texto": "Nome [Carro demonstracao]: "
+    },
+    {
+      "tempo_real": 0.332214,
+      "tipo": "entrada",
+      "texto": "Carro demonstracao com nome maior\n"
+    },
+    {
+      "tempo_real": 0.332261,
+      "tipo": "saida",
+      "texto": "Carro demonstracao com nome maior\n"
+    },
+    {
+      "tempo_real": 0.332724,
+      "tipo": "saida",
+      "texto": "Características separadas por | [gas|automatic]: "
+    },
+    {
+      "tempo_real": 0.332737,
+      "tipo": "entrada",
+      "texto": "\n"
+    },
+    {
+      "tempo_real": 0.332773,
+      "tipo": "saida",
+      "texto": "\n"
+    },
+    {
+      "tempo_real": 0.333141,
+      "tipo": "saida",
+      "texto": "Ano [2022]: "
+    },
+    {
+      "tempo_real": 0.333151,
+      "tipo": "entrada",
+      "texto": "2025\n"
+    },
+    {
+      "tempo_real": 0.333192,
+      "tipo": "saida",
+      "texto": "2025\n"
+    },
+    {
+      "tempo_real": 0.333563,
+      "tipo": "saida",
+      "texto": "Data AAAA-MM-DD [2026-09-24]: "
+    },
+    {
+      "tempo_real": 0.333574,
+      "tipo": "entrada",
+      "texto": "\n"
+    },
+    {
+      "tempo_real": 0.333609,
+      "tipo": "saida",
+      "texto": "\n"
+    },
+    {
+      "tempo_real": 0.369941,
+      "tipo": "saida",
+      "texto": "Índice: ARVORE | id=1 | endereço=4\n"
+    },
+    {
+      "tempo_real": 0.37648,
+      "tipo": "saida",
+      "texto": "Atualizado. Endereço 4 -> 77. Todos os índices atualizados.\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n"
+    },
+    {
+      "tempo_real": 0.376528,
+      "tipo": "saida",
+      "texto": "4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: "
+    },
+    {
+      "tempo_real": 0.376563,
+      "tipo": "entrada",
+      "texto": "5\n"
+    },
+    {
+      "tempo_real": 0.376614,
+      "tipo": "saida",
+      "texto": "5\n"
+    },
+    {
+      "tempo_real": 0.376832,
+      "tipo": "saida",
+      "texto": "Índice desta operação (1 B+, 2 Hash, 3 Lista invertida): "
+    },
+    {
+      "tempo_real": 0.376842,
+      "tipo": "entrada",
+      "texto": "3\n"
+    },
+    {
+      "tempo_real": 0.376872,
+      "tipo": "saida",
+      "texto": "3\n"
+    },
+    {
+      "tempo_real": 0.377038,
+      "tipo": "saida",
+      "texto": "Ano (ENTER para não filtrar): "
+    },
+    {
+      "tempo_real": 0.377047,
+      "tipo": "entrada",
+      "texto": "2025\n"
+    },
+    {
+      "tempo_real": 0.377074,
+      "tipo": "saida",
+      "texto": "2025\n"
+    },
+    {
+      "tempo_real": 0.377275,
+      "tipo": "saida",
+      "texto": "Característica inteira, ex.: gas ou 8 cylinders (ENTER para não filtrar): "
+    },
+    {
+      "tempo_real": 0.377285,
+      "tipo": "entrada",
+      "texto": "gas\n"
+    },
+    {
+      "tempo_real": 0.377323,
+      "tipo": "saida",
+      "texto": "gas\n"
+    },
+    {
+      "tempo_real": 0.377534,
+      "tipo": "saida",
+      "texto": "ID a excluir: "
+    },
+    {
+      "tempo_real": 0.377547,
+      "tipo": "entrada",
+      "texto": "1\n"
+    },
+    {
+      "tempo_real": 0.377587,
+      "tipo": "saida",
+      "texto": "1\n"
+    },
+    {
+      "tempo_real": 0.378231,
+      "tipo": "saida",
+      "texto": "Carro{id=1, codigo='CAR000000001', nome='Carro demonstracao com nome maior', dataRegistro=2026-09-24, caracteristicas=[gas, automatic], ano=2025}\nDigite EXCLUIR para confirmar: "
+    },
+    {
+      "tempo_real": 0.378249,
+      "tipo": "entrada",
+      "texto": "EXCLUIR\n"
+    },
+    {
+      "tempo_real": 0.378297,
+      "tipo": "saida",
+      "texto": "EXCLUIR\n"
+    },
+    {
+      "tempo_real": 0.411408,
+      "tipo": "saida",
+      "texto": "Lápide marcada e entradas removidas de todos os índices.\nÍndice: LISTA | id=1 | endereço=77\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n"
+    },
+    {
+      "tempo_real": 0.411455,
+      "tipo": "saida",
+      "texto": "7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: "
+    },
+    {
+      "tempo_real": 0.411477,
+      "tipo": "entrada",
+      "texto": "8\n"
+    },
+    {
+      "tempo_real": 0.411507,
+      "tipo": "saida",
+      "texto": "8\n"
+    },
+    {
+      "tempo_real": 0.415942,
+      "tipo": "saida",
+      "texto": "AUDITORIA OK: 0 registros ativos; todos os IDs, endereços e listas conferem.\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\n"
+    },
+    {
+      "tempo_real": 0.415974,
+      "tipo": "saida",
+      "texto": "Escolha: "
+    },
+    {
+      "tempo_real": 0.415983,
+      "tipo": "entrada",
+      "texto": "0\n"
+    },
+    {
+      "tempo_real": 0.416005,
+      "tipo": "saida",
+      "texto": "0\n"
+    },
+    {
+      "tempo_real": 0.416197,
+      "tipo": "saida",
+      "texto": "Base salva. Até mais!\n"
+    }
+  ],
+  "etapas": [
+    {
+      "titulo": "Menu e seleção do índice",
+      "duracao": 5,
+      "quadros": [
+        "TP2 AEDS III — Carros | Grupo 15\nGabriel Benicio Fonseca e Rhayner Martins\nPasta: base | ordem=4 | percentual=2.0%\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: "
+      ]
+    },
+    {
+      "titulo": "CREATE · lista invertida selecionada",
+      "duracao": 10,
+      "quadros": [
+        "TP2 AEDS III — Carros | Grupo 15\nGabriel Benicio Fonseca e Rhayner Martins\nPasta: base | ordem=4 | percentual=2.0%\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 2\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): ",
+        "TP2 AEDS III — Carros | Grupo 15\nGabriel Benicio Fonseca e Rhayner Martins\nPasta: base | ordem=4 | percentual=2.0%\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 2\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 3\nNome: ",
+        "TP2 AEDS III — Carros | Grupo 15\nGabriel Benicio Fonseca e Rhayner Martins\nPasta: base | ordem=4 | percentual=2.0%\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 2\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 3\nNome: Carro demonstracao\nCaracterísticas separadas por |: ",
+        "TP2 AEDS III — Carros | Grupo 15\nGabriel Benicio Fonseca e Rhayner Martins\nPasta: base | ordem=4 | percentual=2.0%\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 2\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 3\nNome: Carro demonstracao\nCaracterísticas separadas por |: gas|automatic\nAno: ",
+        "TP2 AEDS III — Carros | Grupo 15\nGabriel Benicio Fonseca e Rhayner Martins\nPasta: base | ordem=4 | percentual=2.0%\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 2\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 3\nNome: Carro demonstracao\nCaracterísticas separadas por |: gas|automatic\nAno: 2022\nData AAAA-MM-DD: ",
+        "TP2 AEDS III — Carros | Grupo 15\nGabriel Benicio Fonseca e Rhayner Martins\nPasta: base | ordem=4 | percentual=2.0%\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 2\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 3\nNome: Carro demonstracao\nCaracterísticas separadas por |: gas|automatic\nAno: 2022\nData AAAA-MM-DD: 2026-09-24\nCarro criado: id=1 | todos os índices atualizados.\nÍndice: LISTA | id=1 | endereço=4\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: "
+      ]
+    },
+    {
+      "titulo": "READ · busca pelo hash",
+      "duracao": 7,
+      "quadros": [
+        "TP2 AEDS III — Carros | Grupo 15\nGabriel Benicio Fonseca e Rhayner Martins\nPasta: base | ordem=4 | percentual=2.0%\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 2\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 3\nNome: Carro demonstracao\nCaracterísticas separadas por |: gas|automatic\nAno: 2022\nData AAAA-MM-DD: 2026-09-24\nCarro criado: id=1 | todos os índices atualizados.\nÍndice: LISTA | id=1 | endereço=4\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 3\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): ",
+        "TP2 AEDS III — Carros | Grupo 15\nGabriel Benicio Fonseca e Rhayner Martins\nPasta: base | ordem=4 | percentual=2.0%\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 2\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 3\nNome: Carro demonstracao\nCaracterísticas separadas por |: gas|automatic\nAno: 2022\nData AAAA-MM-DD: 2026-09-24\nCarro criado: id=1 | todos os índices atualizados.\nÍndice: LISTA | id=1 | endereço=4\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 3\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 2\nID: ",
+        "TP2 AEDS III — Carros | Grupo 15\nGabriel Benicio Fonseca e Rhayner Martins\nPasta: base | ordem=4 | percentual=2.0%\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 2\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 3\nNome: Carro demonstracao\nCaracterísticas separadas por |: gas|automatic\nAno: 2022\nData AAAA-MM-DD: 2026-09-24\nCarro criado: id=1 | todos os índices atualizados.\nÍndice: LISTA | id=1 | endereço=4\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 3\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 2\nID: 1\nCarro{id=1, codigo='CAR000000001', nome='Carro demonstracao', dataRegistro=2026-09-24, caracteristicas=[gas, automatic], ano=2022}\nÍndice: HASH | id=1 | endereço=4\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: "
+      ]
+    },
+    {
+      "titulo": "LISTAS · ano 2022 E característica gas",
+      "duracao": 7,
+      "quadros": [
+        "TP2 AEDS III — Carros | Grupo 15\nGabriel Benicio Fonseca e Rhayner Martins\nPasta: base | ordem=4 | percentual=2.0%\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 2\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 3\nNome: Carro demonstracao\nCaracterísticas separadas por |: gas|automatic\nAno: 2022\nData AAAA-MM-DD: 2026-09-24\nCarro criado: id=1 | todos os índices atualizados.\nÍndice: LISTA | id=1 | endereço=4\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 3\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 2\nID: 1\nCarro{id=1, codigo='CAR000000001', nome='Carro demonstracao', dataRegistro=2026-09-24, caracteristicas=[gas, automatic], ano=2022}\nÍndice: HASH | id=1 | endereço=4\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 6\nPesquisa por listas invertidas. Dois filtros usam interseção (E).\nAno (ENTER para não filtrar): ",
+        "TP2 AEDS III — Carros | Grupo 15\nGabriel Benicio Fonseca e Rhayner Martins\nPasta: base | ordem=4 | percentual=2.0%\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 2\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 3\nNome: Carro demonstracao\nCaracterísticas separadas por |: gas|automatic\nAno: 2022\nData AAAA-MM-DD: 2026-09-24\nCarro criado: id=1 | todos os índices atualizados.\nÍndice: LISTA | id=1 | endereço=4\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 3\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 2\nID: 1\nCarro{id=1, codigo='CAR000000001', nome='Carro demonstracao', dataRegistro=2026-09-24, caracteristicas=[gas, automatic], ano=2022}\nÍndice: HASH | id=1 | endereço=4\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 6\nPesquisa por listas invertidas. Dois filtros usam interseção (E).\nAno (ENTER para não filtrar): 2022\nCaracterística inteira, ex.: gas ou 8 cylinders (ENTER para não filtrar): ",
+        "TP2 AEDS III — Carros | Grupo 15\nGabriel Benicio Fonseca e Rhayner Martins\nPasta: base | ordem=4 | percentual=2.0%\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 2\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 3\nNome: Carro demonstracao\nCaracterísticas separadas por |: gas|automatic\nAno: 2022\nData AAAA-MM-DD: 2026-09-24\nCarro criado: id=1 | todos os índices atualizados.\nÍndice: LISTA | id=1 | endereço=4\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 3\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 2\nID: 1\nCarro{id=1, codigo='CAR000000001', nome='Carro demonstracao', dataRegistro=2026-09-24, caracteristicas=[gas, automatic], ano=2022}\nÍndice: HASH | id=1 | endereço=4\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 6\nPesquisa por listas invertidas. Dois filtros usam interseção (E).\nAno (ENTER para não filtrar): 2022\nCaracterística inteira, ex.: gas ou 8 cylinders (ENTER para não filtrar): gas\nCarro{id=1, codigo='CAR000000001', nome='Carro demonstracao', dataRegistro=2026-09-24, caracteristicas=[gas, automatic], ano=2022}\nTotal: 1 (exibidos 1).\nÍndice: LISTA | ano=2022 | característica=gas | resultados=1\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: "
+      ]
+    },
+    {
+      "titulo": "UPDATE · árvore B+ e novo endereço",
+      "duracao": 10,
+      "quadros": [
+        "TP2 AEDS III — Carros | Grupo 15\nGabriel Benicio Fonseca e Rhayner Martins\nPasta: base | ordem=4 | percentual=2.0%\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 2\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 3\nNome: Carro demonstracao\nCaracterísticas separadas por |: gas|automatic\nAno: 2022\nData AAAA-MM-DD: 2026-09-24\nCarro criado: id=1 | todos os índices atualizados.\nÍndice: LISTA | id=1 | endereço=4\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 3\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 2\nID: 1\nCarro{id=1, codigo='CAR000000001', nome='Carro demonstracao', dataRegistro=2026-09-24, caracteristicas=[gas, automatic], ano=2022}\nÍndice: HASH | id=1 | endereço=4\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 6\nPesquisa por listas invertidas. Dois filtros usam interseção (E).\nAno (ENTER para não filtrar): 2022\nCaracterística inteira, ex.: gas ou 8 cylinders (ENTER para não filtrar): gas\nCarro{id=1, codigo='CAR000000001', nome='Carro demonstracao', dataRegistro=2026-09-24, caracteristicas=[gas, automatic], ano=2022}\nTotal: 1 (exibidos 1).\nÍndice: LISTA | ano=2022 | característica=gas | resultados=1\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 4\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): ",
+        "TP2 AEDS III — Carros | Grupo 15\nGabriel Benicio Fonseca e Rhayner Martins\nPasta: base | ordem=4 | percentual=2.0%\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 2\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 3\nNome: Carro demonstracao\nCaracterísticas separadas por |: gas|automatic\nAno: 2022\nData AAAA-MM-DD: 2026-09-24\nCarro criado: id=1 | todos os índices atualizados.\nÍndice: LISTA | id=1 | endereço=4\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 3\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 2\nID: 1\nCarro{id=1, codigo='CAR000000001', nome='Carro demonstracao', dataRegistro=2026-09-24, caracteristicas=[gas, automatic], ano=2022}\nÍndice: HASH | id=1 | endereço=4\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 6\nPesquisa por listas invertidas. Dois filtros usam interseção (E).\nAno (ENTER para não filtrar): 2022\nCaracterística inteira, ex.: gas ou 8 cylinders (ENTER para não filtrar): gas\nCarro{id=1, codigo='CAR000000001', nome='Carro demonstracao', dataRegistro=2026-09-24, caracteristicas=[gas, automatic], ano=2022}\nTotal: 1 (exibidos 1).\nÍndice: LISTA | ano=2022 | característica=gas | resultados=1\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 4\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 1\nID a atualizar: ",
+        "TP2 AEDS III — Carros | Grupo 15\nGabriel Benicio Fonseca e Rhayner Martins\nPasta: base | ordem=4 | percentual=2.0%\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 2\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 3\nNome: Carro demonstracao\nCaracterísticas separadas por |: gas|automatic\nAno: 2022\nData AAAA-MM-DD: 2026-09-24\nCarro criado: id=1 | todos os índices atualizados.\nÍndice: LISTA | id=1 | endereço=4\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 3\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 2\nID: 1\nCarro{id=1, codigo='CAR000000001', nome='Carro demonstracao', dataRegistro=2026-09-24, caracteristicas=[gas, automatic], ano=2022}\nÍndice: HASH | id=1 | endereço=4\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 6\nPesquisa por listas invertidas. Dois filtros usam interseção (E).\nAno (ENTER para não filtrar): 2022\nCaracterística inteira, ex.: gas ou 8 cylinders (ENTER para não filtrar): gas\nCarro{id=1, codigo='CAR000000001', nome='Carro demonstracao', dataRegistro=2026-09-24, caracteristicas=[gas, automatic], ano=2022}\nTotal: 1 (exibidos 1).\nÍndice: LISTA | ano=2022 | característica=gas | resultados=1\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 4\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 1\nID a atualizar: 1\nAtual: Carro{id=1, codigo='CAR000000001', nome='Carro demonstracao', dataRegistro=2026-09-24, caracteristicas=[gas, automatic], ano=2022}\nENTER mantém o valor; - limpa as características.\nNome [Carro demonstracao]: ",
+        "TP2 AEDS III — Carros | Grupo 15\nGabriel Benicio Fonseca e Rhayner Martins\nPasta: base | ordem=4 | percentual=2.0%\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 2\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 3\nNome: Carro demonstracao\nCaracterísticas separadas por |: gas|automatic\nAno: 2022\nData AAAA-MM-DD: 2026-09-24\nCarro criado: id=1 | todos os índices atualizados.\nÍndice: LISTA | id=1 | endereço=4\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 3\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 2\nID: 1\nCarro{id=1, codigo='CAR000000001', nome='Carro demonstracao', dataRegistro=2026-09-24, caracteristicas=[gas, automatic], ano=2022}\nÍndice: HASH | id=1 | endereço=4\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 6\nPesquisa por listas invertidas. Dois filtros usam interseção (E).\nAno (ENTER para não filtrar): 2022\nCaracterística inteira, ex.: gas ou 8 cylinders (ENTER para não filtrar): gas\nCarro{id=1, codigo='CAR000000001', nome='Carro demonstracao', dataRegistro=2026-09-24, caracteristicas=[gas, automatic], ano=2022}\nTotal: 1 (exibidos 1).\nÍndice: LISTA | ano=2022 | característica=gas | resultados=1\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 4\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 1\nID a atualizar: 1\nAtual: Carro{id=1, codigo='CAR000000001', nome='Carro demonstracao', dataRegistro=2026-09-24, caracteristicas=[gas, automatic], ano=2022}\nENTER mantém o valor; - limpa as características.\nNome [Carro demonstracao]: Carro demonstracao com nome maior\nCaracterísticas separadas por | [gas|automatic]: ",
+        "TP2 AEDS III — Carros | Grupo 15\nGabriel Benicio Fonseca e Rhayner Martins\nPasta: base | ordem=4 | percentual=2.0%\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 2\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 3\nNome: Carro demonstracao\nCaracterísticas separadas por |: gas|automatic\nAno: 2022\nData AAAA-MM-DD: 2026-09-24\nCarro criado: id=1 | todos os índices atualizados.\nÍndice: LISTA | id=1 | endereço=4\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 3\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 2\nID: 1\nCarro{id=1, codigo='CAR000000001', nome='Carro demonstracao', dataRegistro=2026-09-24, caracteristicas=[gas, automatic], ano=2022}\nÍndice: HASH | id=1 | endereço=4\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 6\nPesquisa por listas invertidas. Dois filtros usam interseção (E).\nAno (ENTER para não filtrar): 2022\nCaracterística inteira, ex.: gas ou 8 cylinders (ENTER para não filtrar): gas\nCarro{id=1, codigo='CAR000000001', nome='Carro demonstracao', dataRegistro=2026-09-24, caracteristicas=[gas, automatic], ano=2022}\nTotal: 1 (exibidos 1).\nÍndice: LISTA | ano=2022 | característica=gas | resultados=1\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 4\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 1\nID a atualizar: 1\nAtual: Carro{id=1, codigo='CAR000000001', nome='Carro demonstracao', dataRegistro=2026-09-24, caracteristicas=[gas, automatic], ano=2022}\nENTER mantém o valor; - limpa as características.\nNome [Carro demonstracao]: Carro demonstracao com nome maior\nCaracterísticas separadas por | [gas|automatic]: \nAno [2022]: ",
+        "TP2 AEDS III — Carros | Grupo 15\nGabriel Benicio Fonseca e Rhayner Martins\nPasta: base | ordem=4 | percentual=2.0%\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 2\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 3\nNome: Carro demonstracao\nCaracterísticas separadas por |: gas|automatic\nAno: 2022\nData AAAA-MM-DD: 2026-09-24\nCarro criado: id=1 | todos os índices atualizados.\nÍndice: LISTA | id=1 | endereço=4\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 3\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 2\nID: 1\nCarro{id=1, codigo='CAR000000001', nome='Carro demonstracao', dataRegistro=2026-09-24, caracteristicas=[gas, automatic], ano=2022}\nÍndice: HASH | id=1 | endereço=4\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 6\nPesquisa por listas invertidas. Dois filtros usam interseção (E).\nAno (ENTER para não filtrar): 2022\nCaracterística inteira, ex.: gas ou 8 cylinders (ENTER para não filtrar): gas\nCarro{id=1, codigo='CAR000000001', nome='Carro demonstracao', dataRegistro=2026-09-24, caracteristicas=[gas, automatic], ano=2022}\nTotal: 1 (exibidos 1).\nÍndice: LISTA | ano=2022 | característica=gas | resultados=1\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 4\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 1\nID a atualizar: 1\nAtual: Carro{id=1, codigo='CAR000000001', nome='Carro demonstracao', dataRegistro=2026-09-24, caracteristicas=[gas, automatic], ano=2022}\nENTER mantém o valor; - limpa as características.\nNome [Carro demonstracao]: Carro demonstracao com nome maior\nCaracterísticas separadas por | [gas|automatic]: \nAno [2022]: 2025\nData AAAA-MM-DD [2026-09-24]: ",
+        "TP2 AEDS III — Carros | Grupo 15\nGabriel Benicio Fonseca e Rhayner Martins\nPasta: base | ordem=4 | percentual=2.0%\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 2\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 3\nNome: Carro demonstracao\nCaracterísticas separadas por |: gas|automatic\nAno: 2022\nData AAAA-MM-DD: 2026-09-24\nCarro criado: id=1 | todos os índices atualizados.\nÍndice: LISTA | id=1 | endereço=4\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 3\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 2\nID: 1\nCarro{id=1, codigo='CAR000000001', nome='Carro demonstracao', dataRegistro=2026-09-24, caracteristicas=[gas, automatic], ano=2022}\nÍndice: HASH | id=1 | endereço=4\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 6\nPesquisa por listas invertidas. Dois filtros usam interseção (E).\nAno (ENTER para não filtrar): 2022\nCaracterística inteira, ex.: gas ou 8 cylinders (ENTER para não filtrar): gas\nCarro{id=1, codigo='CAR000000001', nome='Carro demonstracao', dataRegistro=2026-09-24, caracteristicas=[gas, automatic], ano=2022}\nTotal: 1 (exibidos 1).\nÍndice: LISTA | ano=2022 | característica=gas | resultados=1\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 4\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 1\nID a atualizar: 1\nAtual: Carro{id=1, codigo='CAR000000001', nome='Carro demonstracao', dataRegistro=2026-09-24, caracteristicas=[gas, automatic], ano=2022}\nENTER mantém o valor; - limpa as características.\nNome [Carro demonstracao]: Carro demonstracao com nome maior\nCaracterísticas separadas por | [gas|automatic]: \nAno [2022]: 2025\nData AAAA-MM-DD [2026-09-24]: \nÍndice: ARVORE | id=1 | endereço=4\nAtualizado. Endereço 4 -> 77. Todos os índices atualizados.\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: "
+      ]
+    },
+    {
+      "titulo": "DELETE · lista invertida e confirmação",
+      "duracao": 9,
+      "quadros": [
+        "TP2 AEDS III — Carros | Grupo 15\nGabriel Benicio Fonseca e Rhayner Martins\nPasta: base | ordem=4 | percentual=2.0%\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 2\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 3\nNome: Carro demonstracao\nCaracterísticas separadas por |: gas|automatic\nAno: 2022\nData AAAA-MM-DD: 2026-09-24\nCarro criado: id=1 | todos os índices atualizados.\nÍndice: LISTA | id=1 | endereço=4\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 3\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 2\nID: 1\nCarro{id=1, codigo='CAR000000001', nome='Carro demonstracao', dataRegistro=2026-09-24, caracteristicas=[gas, automatic], ano=2022}\nÍndice: HASH | id=1 | endereço=4\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 6\nPesquisa por listas invertidas. Dois filtros usam interseção (E).\nAno (ENTER para não filtrar): 2022\nCaracterística inteira, ex.: gas ou 8 cylinders (ENTER para não filtrar): gas\nCarro{id=1, codigo='CAR000000001', nome='Carro demonstracao', dataRegistro=2026-09-24, caracteristicas=[gas, automatic], ano=2022}\nTotal: 1 (exibidos 1).\nÍndice: LISTA | ano=2022 | característica=gas | resultados=1\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 4\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 1\nID a atualizar: 1\nAtual: Carro{id=1, codigo='CAR000000001', nome='Carro demonstracao', dataRegistro=2026-09-24, caracteristicas=[gas, automatic], ano=2022}\nENTER mantém o valor; - limpa as características.\nNome [Carro demonstracao]: Carro demonstracao com nome maior\nCaracterísticas separadas por | [gas|automatic]: \nAno [2022]: 2025\nData AAAA-MM-DD [2026-09-24]: \nÍndice: ARVORE | id=1 | endereço=4\nAtualizado. Endereço 4 -> 77. Todos os índices atualizados.\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 5\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): ",
+        "TP2 AEDS III — Carros | Grupo 15\nGabriel Benicio Fonseca e Rhayner Martins\nPasta: base | ordem=4 | percentual=2.0%\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 2\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 3\nNome: Carro demonstracao\nCaracterísticas separadas por |: gas|automatic\nAno: 2022\nData AAAA-MM-DD: 2026-09-24\nCarro criado: id=1 | todos os índices atualizados.\nÍndice: LISTA | id=1 | endereço=4\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 3\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 2\nID: 1\nCarro{id=1, codigo='CAR000000001', nome='Carro demonstracao', dataRegistro=2026-09-24, caracteristicas=[gas, automatic], ano=2022}\nÍndice: HASH | id=1 | endereço=4\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 6\nPesquisa por listas invertidas. Dois filtros usam interseção (E).\nAno (ENTER para não filtrar): 2022\nCaracterística inteira, ex.: gas ou 8 cylinders (ENTER para não filtrar): gas\nCarro{id=1, codigo='CAR000000001', nome='Carro demonstracao', dataRegistro=2026-09-24, caracteristicas=[gas, automatic], ano=2022}\nTotal: 1 (exibidos 1).\nÍndice: LISTA | ano=2022 | característica=gas | resultados=1\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 4\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 1\nID a atualizar: 1\nAtual: Carro{id=1, codigo='CAR000000001', nome='Carro demonstracao', dataRegistro=2026-09-24, caracteristicas=[gas, automatic], ano=2022}\nENTER mantém o valor; - limpa as características.\nNome [Carro demonstracao]: Carro demonstracao com nome maior\nCaracterísticas separadas por | [gas|automatic]: \nAno [2022]: 2025\nData AAAA-MM-DD [2026-09-24]: \nÍndice: ARVORE | id=1 | endereço=4\nAtualizado. Endereço 4 -> 77. Todos os índices atualizados.\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 5\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 3\nAno (ENTER para não filtrar): ",
+        "TP2 AEDS III — Carros | Grupo 15\nGabriel Benicio Fonseca e Rhayner Martins\nPasta: base | ordem=4 | percentual=2.0%\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 2\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 3\nNome: Carro demonstracao\nCaracterísticas separadas por |: gas|automatic\nAno: 2022\nData AAAA-MM-DD: 2026-09-24\nCarro criado: id=1 | todos os índices atualizados.\nÍndice: LISTA | id=1 | endereço=4\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 3\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 2\nID: 1\nCarro{id=1, codigo='CAR000000001', nome='Carro demonstracao', dataRegistro=2026-09-24, caracteristicas=[gas, automatic], ano=2022}\nÍndice: HASH | id=1 | endereço=4\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 6\nPesquisa por listas invertidas. Dois filtros usam interseção (E).\nAno (ENTER para não filtrar): 2022\nCaracterística inteira, ex.: gas ou 8 cylinders (ENTER para não filtrar): gas\nCarro{id=1, codigo='CAR000000001', nome='Carro demonstracao', dataRegistro=2026-09-24, caracteristicas=[gas, automatic], ano=2022}\nTotal: 1 (exibidos 1).\nÍndice: LISTA | ano=2022 | característica=gas | resultados=1\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 4\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 1\nID a atualizar: 1\nAtual: Carro{id=1, codigo='CAR000000001', nome='Carro demonstracao', dataRegistro=2026-09-24, caracteristicas=[gas, automatic], ano=2022}\nENTER mantém o valor; - limpa as características.\nNome [Carro demonstracao]: Carro demonstracao com nome maior\nCaracterísticas separadas por | [gas|automatic]: \nAno [2022]: 2025\nData AAAA-MM-DD [2026-09-24]: \nÍndice: ARVORE | id=1 | endereço=4\nAtualizado. Endereço 4 -> 77. Todos os índices atualizados.\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 5\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 3\nAno (ENTER para não filtrar): 2025\nCaracterística inteira, ex.: gas ou 8 cylinders (ENTER para não filtrar): ",
+        "TP2 AEDS III — Carros | Grupo 15\nGabriel Benicio Fonseca e Rhayner Martins\nPasta: base | ordem=4 | percentual=2.0%\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 2\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 3\nNome: Carro demonstracao\nCaracterísticas separadas por |: gas|automatic\nAno: 2022\nData AAAA-MM-DD: 2026-09-24\nCarro criado: id=1 | todos os índices atualizados.\nÍndice: LISTA | id=1 | endereço=4\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 3\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 2\nID: 1\nCarro{id=1, codigo='CAR000000001', nome='Carro demonstracao', dataRegistro=2026-09-24, caracteristicas=[gas, automatic], ano=2022}\nÍndice: HASH | id=1 | endereço=4\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 6\nPesquisa por listas invertidas. Dois filtros usam interseção (E).\nAno (ENTER para não filtrar): 2022\nCaracterística inteira, ex.: gas ou 8 cylinders (ENTER para não filtrar): gas\nCarro{id=1, codigo='CAR000000001', nome='Carro demonstracao', dataRegistro=2026-09-24, caracteristicas=[gas, automatic], ano=2022}\nTotal: 1 (exibidos 1).\nÍndice: LISTA | ano=2022 | característica=gas | resultados=1\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 4\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 1\nID a atualizar: 1\nAtual: Carro{id=1, codigo='CAR000000001', nome='Carro demonstracao', dataRegistro=2026-09-24, caracteristicas=[gas, automatic], ano=2022}\nENTER mantém o valor; - limpa as características.\nNome [Carro demonstracao]: Carro demonstracao com nome maior\nCaracterísticas separadas por | [gas|automatic]: \nAno [2022]: 2025\nData AAAA-MM-DD [2026-09-24]: \nÍndice: ARVORE | id=1 | endereço=4\nAtualizado. Endereço 4 -> 77. Todos os índices atualizados.\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 5\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 3\nAno (ENTER para não filtrar): 2025\nCaracterística inteira, ex.: gas ou 8 cylinders (ENTER para não filtrar): gas\nID a excluir: ",
+        "TP2 AEDS III — Carros | Grupo 15\nGabriel Benicio Fonseca e Rhayner Martins\nPasta: base | ordem=4 | percentual=2.0%\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 2\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 3\nNome: Carro demonstracao\nCaracterísticas separadas por |: gas|automatic\nAno: 2022\nData AAAA-MM-DD: 2026-09-24\nCarro criado: id=1 | todos os índices atualizados.\nÍndice: LISTA | id=1 | endereço=4\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 3\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 2\nID: 1\nCarro{id=1, codigo='CAR000000001', nome='Carro demonstracao', dataRegistro=2026-09-24, caracteristicas=[gas, automatic], ano=2022}\nÍndice: HASH | id=1 | endereço=4\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 6\nPesquisa por listas invertidas. Dois filtros usam interseção (E).\nAno (ENTER para não filtrar): 2022\nCaracterística inteira, ex.: gas ou 8 cylinders (ENTER para não filtrar): gas\nCarro{id=1, codigo='CAR000000001', nome='Carro demonstracao', dataRegistro=2026-09-24, caracteristicas=[gas, automatic], ano=2022}\nTotal: 1 (exibidos 1).\nÍndice: LISTA | ano=2022 | característica=gas | resultados=1\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 4\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 1\nID a atualizar: 1\nAtual: Carro{id=1, codigo='CAR000000001', nome='Carro demonstracao', dataRegistro=2026-09-24, caracteristicas=[gas, automatic], ano=2022}\nENTER mantém o valor; - limpa as características.\nNome [Carro demonstracao]: Carro demonstracao com nome maior\nCaracterísticas separadas por | [gas|automatic]: \nAno [2022]: 2025\nData AAAA-MM-DD [2026-09-24]: \nÍndice: ARVORE | id=1 | endereço=4\nAtualizado. Endereço 4 -> 77. Todos os índices atualizados.\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 5\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 3\nAno (ENTER para não filtrar): 2025\nCaracterística inteira, ex.: gas ou 8 cylinders (ENTER para não filtrar): gas\nID a excluir: 1\nCarro{id=1, codigo='CAR000000001', nome='Carro demonstracao com nome maior', dataRegistro=2026-09-24, caracteristicas=[gas, automatic], ano=2025}\nDigite EXCLUIR para confirmar: ",
+        "TP2 AEDS III — Carros | Grupo 15\nGabriel Benicio Fonseca e Rhayner Martins\nPasta: base | ordem=4 | percentual=2.0%\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 2\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 3\nNome: Carro demonstracao\nCaracterísticas separadas por |: gas|automatic\nAno: 2022\nData AAAA-MM-DD: 2026-09-24\nCarro criado: id=1 | todos os índices atualizados.\nÍndice: LISTA | id=1 | endereço=4\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 3\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 2\nID: 1\nCarro{id=1, codigo='CAR000000001', nome='Carro demonstracao', dataRegistro=2026-09-24, caracteristicas=[gas, automatic], ano=2022}\nÍndice: HASH | id=1 | endereço=4\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 6\nPesquisa por listas invertidas. Dois filtros usam interseção (E).\nAno (ENTER para não filtrar): 2022\nCaracterística inteira, ex.: gas ou 8 cylinders (ENTER para não filtrar): gas\nCarro{id=1, codigo='CAR000000001', nome='Carro demonstracao', dataRegistro=2026-09-24, caracteristicas=[gas, automatic], ano=2022}\nTotal: 1 (exibidos 1).\nÍndice: LISTA | ano=2022 | característica=gas | resultados=1\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 4\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 1\nID a atualizar: 1\nAtual: Carro{id=1, codigo='CAR000000001', nome='Carro demonstracao', dataRegistro=2026-09-24, caracteristicas=[gas, automatic], ano=2022}\nENTER mantém o valor; - limpa as características.\nNome [Carro demonstracao]: Carro demonstracao com nome maior\nCaracterísticas separadas por | [gas|automatic]: \nAno [2022]: 2025\nData AAAA-MM-DD [2026-09-24]: \nÍndice: ARVORE | id=1 | endereço=4\nAtualizado. Endereço 4 -> 77. Todos os índices atualizados.\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 5\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 3\nAno (ENTER para não filtrar): 2025\nCaracterística inteira, ex.: gas ou 8 cylinders (ENTER para não filtrar): gas\nID a excluir: 1\nCarro{id=1, codigo='CAR000000001', nome='Carro demonstracao com nome maior', dataRegistro=2026-09-24, caracteristicas=[gas, automatic], ano=2025}\nDigite EXCLUIR para confirmar: EXCLUIR\nLápide marcada e entradas removidas de todos os índices.\nÍndice: LISTA | id=1 | endereço=77\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: "
+      ]
+    },
+    {
+      "titulo": "Auditoria de dados e todos os índices",
+      "duracao": 7,
+      "quadros": [
+        "TP2 AEDS III — Carros | Grupo 15\nGabriel Benicio Fonseca e Rhayner Martins\nPasta: base | ordem=4 | percentual=2.0%\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 2\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 3\nNome: Carro demonstracao\nCaracterísticas separadas por |: gas|automatic\nAno: 2022\nData AAAA-MM-DD: 2026-09-24\nCarro criado: id=1 | todos os índices atualizados.\nÍndice: LISTA | id=1 | endereço=4\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 3\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 2\nID: 1\nCarro{id=1, codigo='CAR000000001', nome='Carro demonstracao', dataRegistro=2026-09-24, caracteristicas=[gas, automatic], ano=2022}\nÍndice: HASH | id=1 | endereço=4\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 6\nPesquisa por listas invertidas. Dois filtros usam interseção (E).\nAno (ENTER para não filtrar): 2022\nCaracterística inteira, ex.: gas ou 8 cylinders (ENTER para não filtrar): gas\nCarro{id=1, codigo='CAR000000001', nome='Carro demonstracao', dataRegistro=2026-09-24, caracteristicas=[gas, automatic], ano=2022}\nTotal: 1 (exibidos 1).\nÍndice: LISTA | ano=2022 | característica=gas | resultados=1\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 4\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 1\nID a atualizar: 1\nAtual: Carro{id=1, codigo='CAR000000001', nome='Carro demonstracao', dataRegistro=2026-09-24, caracteristicas=[gas, automatic], ano=2022}\nENTER mantém o valor; - limpa as características.\nNome [Carro demonstracao]: Carro demonstracao com nome maior\nCaracterísticas separadas por | [gas|automatic]: \nAno [2022]: 2025\nData AAAA-MM-DD [2026-09-24]: \nÍndice: ARVORE | id=1 | endereço=4\nAtualizado. Endereço 4 -> 77. Todos os índices atualizados.\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 5\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 3\nAno (ENTER para não filtrar): 2025\nCaracterística inteira, ex.: gas ou 8 cylinders (ENTER para não filtrar): gas\nID a excluir: 1\nCarro{id=1, codigo='CAR000000001', nome='Carro demonstracao com nome maior', dataRegistro=2026-09-24, caracteristicas=[gas, automatic], ano=2025}\nDigite EXCLUIR para confirmar: EXCLUIR\nLápide marcada e entradas removidas de todos os índices.\nÍndice: LISTA | id=1 | endereço=77\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 8\nAUDITORIA OK: 0 registros ativos; todos os IDs, endereços e listas conferem.\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: "
+      ]
+    },
+    {
+      "titulo": "Encerramento normal",
+      "duracao": 3,
+      "quadros": [
+        "TP2 AEDS III — Carros | Grupo 15\nGabriel Benicio Fonseca e Rhayner Martins\nPasta: base | ordem=4 | percentual=2.0%\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 2\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 3\nNome: Carro demonstracao\nCaracterísticas separadas por |: gas|automatic\nAno: 2022\nData AAAA-MM-DD: 2026-09-24\nCarro criado: id=1 | todos os índices atualizados.\nÍndice: LISTA | id=1 | endereço=4\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 3\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 2\nID: 1\nCarro{id=1, codigo='CAR000000001', nome='Carro demonstracao', dataRegistro=2026-09-24, caracteristicas=[gas, automatic], ano=2022}\nÍndice: HASH | id=1 | endereço=4\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 6\nPesquisa por listas invertidas. Dois filtros usam interseção (E).\nAno (ENTER para não filtrar): 2022\nCaracterística inteira, ex.: gas ou 8 cylinders (ENTER para não filtrar): gas\nCarro{id=1, codigo='CAR000000001', nome='Carro demonstracao', dataRegistro=2026-09-24, caracteristicas=[gas, automatic], ano=2022}\nTotal: 1 (exibidos 1).\nÍndice: LISTA | ano=2022 | característica=gas | resultados=1\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 4\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 1\nID a atualizar: 1\nAtual: Carro{id=1, codigo='CAR000000001', nome='Carro demonstracao', dataRegistro=2026-09-24, caracteristicas=[gas, automatic], ano=2022}\nENTER mantém o valor; - limpa as características.\nNome [Carro demonstracao]: Carro demonstracao com nome maior\nCaracterísticas separadas por | [gas|automatic]: \nAno [2022]: 2025\nData AAAA-MM-DD [2026-09-24]: \nÍndice: ARVORE | id=1 | endereço=4\nAtualizado. Endereço 4 -> 77. Todos os índices atualizados.\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 5\nÍndice desta operação (1 B+, 2 Hash, 3 Lista invertida): 3\nAno (ENTER para não filtrar): 2025\nCaracterística inteira, ex.: gas ou 8 cylinders (ENTER para não filtrar): gas\nID a excluir: 1\nCarro{id=1, codigo='CAR000000001', nome='Carro demonstracao com nome maior', dataRegistro=2026-09-24, caracteristicas=[gas, automatic], ano=2025}\nDigite EXCLUIR para confirmar: EXCLUIR\nLápide marcada e entradas removidas de todos os índices.\nÍndice: LISTA | id=1 | endereço=77\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 8\nAUDITORIA OK: 0 registros ativos; todos os IDs, endereços e listas conferem.\n\n1 Importar CSV     2 Criar carro      3 Consultar por ID\n4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas\n7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair\nEscolha: 0\nBase salva. Até mais!\n"
+      ]
+    }
+  ]
+}

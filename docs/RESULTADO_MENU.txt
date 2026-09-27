@@ -1,0 +1,54 @@
+TP2 AEDS III — Carros | Grupo 15
+Gabriel Benicio Fonseca e Rhayner Martins
+Pasta: /Users/gioh/Desktop/aeds3 Carros/G15-TP1-AEDS3-CARROS/build-test-tp2/menu-xdkscwcj | ordem=16 | percentual=2.0%
+
+1 Importar CSV     2 Criar carro      3 Consultar por ID
+4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas
+7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair
+Escolha: Índice desta operação (1 B+, 2 Hash, 3 Lista invertida): Nome: Características separadas por |: Ano: Data AAAA-MM-DD: Carro criado: id=1 | todos os índices atualizados.
+Índice: LISTA | id=1 | endereço=4
+
+1 Importar CSV     2 Criar carro      3 Consultar por ID
+4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas
+7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair
+Escolha: Índice desta operação (1 B+, 2 Hash, 3 Lista invertida): ID: Carro{id=1, codigo='CAR000000001', nome='Honda Civic', dataRegistro=2026-09-14, caracteristicas=[gas, manual], ano=2020}
+Índice: ARVORE | id=1 | endereço=4
+
+1 Importar CSV     2 Criar carro      3 Consultar por ID
+4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas
+7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair
+Escolha: Índice desta operação (1 B+, 2 Hash, 3 Lista invertida): ID: Carro{id=1, codigo='CAR000000001', nome='Honda Civic', dataRegistro=2026-09-14, caracteristicas=[gas, manual], ano=2020}
+Índice: HASH | id=1 | endereço=4
+
+1 Importar CSV     2 Criar carro      3 Consultar por ID
+4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas
+7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair
+Escolha: Pesquisa por listas invertidas. Dois filtros usam interseção (E).
+Ano (ENTER para não filtrar): Característica inteira, ex.: gas ou 8 cylinders (ENTER para não filtrar): Carro{id=1, codigo='CAR000000001', nome='Honda Civic', dataRegistro=2026-09-14, caracteristicas=[gas, manual], ano=2020}
+Total: 1 (exibidos 1).
+Índice: LISTA | ano=2020 | característica=gas | resultados=1
+
+1 Importar CSV     2 Criar carro      3 Consultar por ID
+4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas
+7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair
+Escolha: Índice desta operação (1 B+, 2 Hash, 3 Lista invertida): Ano (ENTER para não filtrar): Característica inteira, ex.: gas ou 8 cylinders (ENTER para não filtrar): ID a atualizar: Atual: Carro{id=1, codigo='CAR000000001', nome='Honda Civic', dataRegistro=2026-09-14, caracteristicas=[gas, manual], ano=2020}
+ENTER mantém o valor; - limpa as características.
+Nome [Honda Civic]: Características separadas por | [gas|manual]: Ano [2020]: Data AAAA-MM-DD [2026-09-14]: Índice: LISTA | id=1 | endereço=4
+Atualizado. Endereço 4 -> 67. Todos os índices atualizados.
+
+1 Importar CSV     2 Criar carro      3 Consultar por ID
+4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas
+7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair
+Escolha: Índice desta operação (1 B+, 2 Hash, 3 Lista invertida): Ano (ENTER para não filtrar): Característica inteira, ex.: gas ou 8 cylinders (ENTER para não filtrar): ID a excluir: Carro{id=1, codigo='CAR000000001', nome='Honda Civic com nome maior', dataRegistro=2026-09-14, caracteristicas=[diesel, automatico], ano=2021}
+Digite EXCLUIR para confirmar: Lápide marcada e entradas removidas de todos os índices.
+Índice: LISTA | id=1 | endereço=67
+
+1 Importar CSV     2 Criar carro      3 Consultar por ID
+4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas
+7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair
+Escolha: AUDITORIA OK: 0 registros ativos; todos os IDs, endereços e listas conferem.
+
+1 Importar CSV     2 Criar carro      3 Consultar por ID
+4 Atualizar carro  5 Excluir carro    6 Pesquisar nas listas
+7 Ver índices      8 Auditar tudo     9 Reconstruir índices    0 Sair
+Escolha: Base salva. Até mais!

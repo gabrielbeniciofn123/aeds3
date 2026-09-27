@@ -1,0 +1,12 @@
+Carga real de 100.000 + quatro índices: 24.452 s.
+Base inicial: 100000 | Hash: 2.0% | X=2000
+Árvore B+: ordem=16, registros=100000, altura=6, páginas ativas=14063, páginas livres=0, página=321 bytes, raiz no offset=4442688
+Hash estendido: profundidade global=6, referências=64, buckets=64, capacidade por bucket=2000, registros=100000, profundidades locais=6..6, função h(id)=id mod 2^p
+Ano: Lista invertida anos.lista: termos=102, postings=100000, eventos=100000
+Características: Lista invertida caracteristicas.lista: termos=47, postings=535292, eventos=535292
+AUDITORIA OK: 100000 registros ativos; todos os IDs, endereços e listas conferem.
+Pesquisa 2014 E gas: 5693 registros, resultado igual à referência sequencial.
+AUDITORIA OK: 100000 registros ativos; todos os IDs, endereços e listas conferem.
+AUDITORIA OK: 100000 registros ativos; todos os IDs, endereços e listas conferem.
+OK: carga real, 400 buscas, interseção, CRUD e reabertura com 100.000 ativos.
+TESTES TP2 APROVADOS: 408 verificações em 46.179 s.
